@@ -11,8 +11,6 @@ var array=[1,2,3,'Prashanth']
 console.log(array)
 console.log(array.length)
 console.log(array[3])
-
-
 var array2=[1,2,3,4,5,6.6,'madhu']
 console.log(array2)
 console.log(array2[6])
