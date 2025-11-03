@@ -99,13 +99,11 @@ if(a!=b ||a==b){
 else{
     console.log(false)
 }
-// Relational operator
-
-// Ternary operator
 
 
 
-console.log('5.ternary operator')
+
+console.log('ternary operator')
 let v1=10
 let v2=10
 a=b?console.log(true):console.log(false)
