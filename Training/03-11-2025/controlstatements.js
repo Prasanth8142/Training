@@ -30,7 +30,7 @@ else{
 }
 let age=18
 if(age>=18){
-    
+
     console.log('You Can Vote!')
 }
 
@@ -136,5 +136,3 @@ switch(studentname){
                         default:
                             console.log('Not a car')
                  }
-
-
