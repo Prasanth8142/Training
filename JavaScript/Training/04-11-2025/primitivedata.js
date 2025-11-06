@@ -9,7 +9,7 @@ console.log(c)
 console.log(`2.Number:`)
 let num=10
 console.log(num)
-console.log(typeof(num))
+console.log(num)
 
 
 // 3.Boolean
@@ -23,16 +23,18 @@ console.log(Sai)
 // 4.Undefined
 let g
 console.log(g)
-console.log(typeof(g))
+
 
 
 // 5.Null
 var car=null
 console.log(car)
-console.log(typeof (car))
 
 
-// var emp1=Symbol('employee')
-// var emp2=Symbol(`employee`)
-// console.log(emp1)
-// console.log(emp2===emp1)
+// function A(){
+//     let a=[1,2]
+//     let b=[1,2]
+//     console.log(a==b)
+//     console.log(a===b)
+// }
+// A()
