@@ -69,4 +69,5 @@ console.log(5>10)
 console.log(45<90)
 console.log(12>10)
 console.log(32>10)
-76
+console.log(23<45)
+console.log(23>45)
