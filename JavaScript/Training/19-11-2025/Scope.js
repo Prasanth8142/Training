@@ -7,7 +7,7 @@ console.log('Scope variable concepts:')
 //4.Lexical Scope
 // 1.Global Scope:a variable declared outside of function or block can be used in any where
 console.log('1.Global Scope:')
-var city='Dharmavarm'
+const city='Dharmavarm'
 function printcity(){
 console.log(city)
 }
@@ -93,3 +93,15 @@ console.log(a4)
 let a3
 console.log(a3)
 // const a6
+console.log('hoisting')
+console.log(d)
+var d
+console.log(d)
+// console.log(e)
+// let e
+// console.log(e)
+console.log(city)
+// function a(){
+//     var a6=20
+// }
+// console.log(a6)
