@@ -1,26 +1,62 @@
-var a=function (str){
-    return str.split("").reverse().join("")
+function div(a){
+if(a%3==0 && a%5==0){
+    return "it is divisble by 3 and 5"
 }
-console.log(a("sai"))
-
-
-function ispalindrome(str){
-    const res=str.split("").reverse().join("")
-    return str==res
+else{
+    return 'its is not divisble'
 }
-console.log(ispalindrome('man'))
+}
+console.log(div(10))
+console.log(div(30))
 
 
-function LargestElementArray(arr){
-    let largest=arr[0]
-    for(let i=0;i<arr.length;i++){
-        if(arr[i]>largest){
-            largest=arr[i]
+function vowels(v){
+    let count=0
+    for(let i=0;i<v.length;i++){
+    if(v[i]=='a' || v[i]=='e'|| v[i]=='i' ||v[i]=='o'|| v[i]=='u'){
+        count++
+    }
+
+}
+ return count
+}
+
+   
+console.log(vowels("Prashanth"))
+console.log(vowels("abdul"))
+
+
+
+
+let array=['a','e','i','o','u']
+function sum(g){
+    let count=0
+    for(let i=0;i<g.length;i++){
+        for(let j=0;j<array.length;j++){
+         if(g[i]==array[j]){
+            count++
         }
         
+        }
     }
-    return largest
-
+    return count
 }
- console.log(LargestElementArray([99,45,78,100]))
+console.log(sum('prashanth'))
+console.log(sum("AbdUl"))
 
+
+// Methods
+
+function reverse(str){
+return str.split("").reverse().join("")
+}
+console.log(reverse("123"))
+
+// Manually
+function man(d){
+    let ram=''
+for(let i=d.length-1;i>=0;i--)
+    ram+=d[i]
+return ram
+}
+console.log(man("Abdul"))
