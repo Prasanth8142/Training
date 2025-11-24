@@ -60,3 +60,24 @@ for(let i=d.length-1;i>=0;i--)
 return ram
 }
 console.log(man("Abdul"))
+
+
+
+function secondelement(j){
+    let p=0
+    // let vp=0
+    for(let i=0;i<j.length;i++){
+        if(j[i]<p){
+            // vp=p
+            p=j[i]
+        }
+        return p
+    }
+}
+//         else if(j[i]<vp){
+//             vp=j[i]
+//         }
+//     }
+//     return vp
+// }
+console.log(secondelement([6,3,4,40,20]))
