@@ -190,3 +190,4 @@ function factorial(f){
     return fam
 }
 console.log(factorial(6))
+
