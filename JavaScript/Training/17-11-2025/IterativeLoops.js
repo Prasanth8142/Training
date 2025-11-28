@@ -71,3 +71,6 @@ for( s of Hospital){
     console.log(s)
 }
 // for of used on the Arrays,Strings
+const image=[1,2,3,4,5,6,6,7,"madhu"]
+image.forEach((values,index,Array)=>
+console.log(values,index,Array))
