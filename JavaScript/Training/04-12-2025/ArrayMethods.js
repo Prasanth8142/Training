@@ -67,3 +67,6 @@ console.log(arr6);
 
  let array7=[1,2,3,4,5,5,["prashanth",'madhu'],[1,2,3,4,5]]
  console.log(array7.flat(2))
+ console.log(array5.reduce((i,j) =>i+j))
+ console.log(array5)
+ console.log(array5.map(i=> i+1))
