@@ -56,6 +56,10 @@ for (let i = 0; i < arr6.length; i++) {
 console.log(arr6);
  let array5=[1,2,3,4,5,7,1,2]
  console.log(...new Set(array5))
+ array5.forEach((i,j,k)=>
+    console.log(i,j,k)
+ 
+ )
 
  let m=[]
  for( x of array5){
