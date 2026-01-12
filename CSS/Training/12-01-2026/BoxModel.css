@@ -1,0 +1,30 @@
+    #h1{
+         box-sizing: 2px; 
+         color: rgb(6, 9, 20);
+         background-color: rgb(255, 80, 147);
+         display: flexbox;
+         /* margin: 10%; */
+         border: 2px solid black;
+         padding: 2px;
+         color: gold;
+        
+        }
+           #box1{
+            box-sizing: border-box;
+            background: pink;
+            min-width: 200px;
+            min-height: 50px;
+            
+        }
+        #box2{
+            box-sizing: content-box;
+            background:red;
+            min-width: 200px;
+            min-height: 50px; 
+
+        }
+        #coln{
+            column-count: 3;
+            column-gap: 30px;
+            column-width: auto;
+        }
