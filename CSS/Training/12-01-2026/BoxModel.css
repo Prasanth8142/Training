@@ -28,3 +28,8 @@
             column-gap: 30px;
             column-width: auto;
         }
+        .id2{
+            display: flex;
+            flex-direction: column;
+        }
+
