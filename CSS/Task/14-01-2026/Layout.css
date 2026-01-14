@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eee;
+    margin: 0;
+    padding: 20px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.layout {
+    background: #ddd;
+    padding: 10px;
+}
+
+ .nav, .banner, .intro, .sidebar, .body, .box, .footer, .grid div {
+    background: #bbb;
+    padding: 15px;
+    text-align: center;
+    margin: 5px;
+}
+.logo{
+    background: #bbb;
+    padding: 15px;
+    margin: 5px;
+}
+
+.top {
+    display: flex;
+    gap: 10px;
+}
+
+.top .logo {
+    width: 30%;
+}
+
+.top .nav {
+    width: 70%;
+}
+
+.main {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.sidebar {
+
+    height: 150px;
+    width:250x
+}
+
+.body {
+    height: 150px;
+    width: 200px;
+}
+
+.footer {
+    margin-top: 10px;
+}
+
+.boxes {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.box {
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.tall {
+    height: 200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.grid div {
+    height: 50px;
+}
