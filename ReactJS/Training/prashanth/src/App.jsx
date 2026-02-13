@@ -3,6 +3,7 @@ import Home from './12-02-2026/Task/Home'
 
 import Profile from './12-02-2026/Task/Profile'
 import Login from "./12-02-2026/Task/Login"
+import Boy from "./13-02-2026/Boy";
 
 function App() {
   const [page, setPage] = useState("home");   
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <div>
-      {page === "home" && (
+      {/* {page === "home" && (
         <Home setPage={setPage} setRole={setRole} />
       )}
 
@@ -20,7 +21,8 @@ function App() {
 
       {page === "profile" && (
         <Profile role={role} setPage={setPage} />
-      )}
+      )} */
+      }<Boy/>
     </div>
   );
 }
