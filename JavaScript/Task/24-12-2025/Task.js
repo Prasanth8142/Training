@@ -13,6 +13,7 @@ logout.addEventListener("click",()=>{
     localStorage.removeItem("Token")
     check()
 })
+
 function check(){
     const token=localStorage.getItem("Token")
     if(token){
