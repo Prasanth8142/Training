@@ -26,13 +26,13 @@ console.log(m)
 clearTimeout(timer)
 
 // clearInterval:stops a setInterval repeated execution
-function clearinterval(){
-let count=0
-let interval=setInterval(() => {
-    count++
-    console.log(count)
-    if(count===5){
-        clearInterval(interval)
-    }
-}, 1000);}
-clearinterval()
+// function clearinterval(){
+// let count=0
+// let interval=setInterval(() => {
+//     count++
+//     console.log(count)
+//     if(count===5){
+//         clearInterval(interval)
+//     }
+// }, 1000);}
+// clearinterval()

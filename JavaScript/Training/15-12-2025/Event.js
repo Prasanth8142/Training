@@ -30,10 +30,10 @@ let d1=document.getElementById('list')
 d1.addEventListener('click',function(e){
     console.log(e.target.innerText)
 })
-let m1=new Promise()
-console.log(m1)
-let n1=document.getElementById("scroll")
-n1.addEventListener('scroll',function(){
-    console.log('scroll')
-})
-console.log(window)
+// let m1=new Promise()
+// console.log(m1)
+// let n1=document.getElementById("scroll")
+// n1.addEventListener('scroll',function(){
+//     console.log('scroll')
+// })
+// console.log(window)
