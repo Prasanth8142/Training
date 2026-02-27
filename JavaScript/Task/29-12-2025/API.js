@@ -9,7 +9,7 @@ function cleargh(){
 
 function getUsers() {
     let b =document.getElementById("button")
-    b.remove()
+    // b.remove()
     fetch("https://jsonplaceholder.typicode.com/users")
         .then((response) => response.json())
         .then((d) => {
