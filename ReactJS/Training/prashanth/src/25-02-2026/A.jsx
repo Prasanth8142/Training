@@ -43,6 +43,8 @@ function A() {
     }
     )
     .then((f)=>console.log(f.data))
+
+    
   return (
     
     <div>

@@ -7,10 +7,11 @@ function A() {
      console.log(s)
      console.log(s[0])
     })
-    
+  
     .catch((response)=>{
         console.log('error')
     })
+
   return (
     <div>
         
