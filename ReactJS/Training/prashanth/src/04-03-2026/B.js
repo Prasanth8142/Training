@@ -11,7 +11,7 @@ a.addEventListener("click",()=>{
     console.log("button Clicked :",b)
 })
 
-
+console.log('yes')
 //Throttling
 let lastClick = 0
 let c = 0
