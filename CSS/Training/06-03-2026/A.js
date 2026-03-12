@@ -48,6 +48,7 @@ let obj3={
     }
 }
 
+
 let obj4=JSON.parse(JSON.stringify(obj3))
 obj4.name="VAm"
 obj4.city="Bengaluru"
