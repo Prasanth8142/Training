@@ -1,12 +1,12 @@
 import React from 'react'
-import { store } from './25-03-2026/B'
+import store from './26-03-2026/B'
 import { Provider } from 'react-redux'
-import A from './25-03-2026/A'
+import AP from './26-03-2026/Ap'
 function App() {
   return (
     <div >
       <Provider store={store}>
-        <A/>
+        <AP/>
       </Provider>
       
     </div>
