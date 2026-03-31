@@ -1,14 +1,10 @@
 import React from 'react'
-import store from './26-03-2026/B'
-import { Provider } from 'react-redux'
-import AP from './26-03-2026/Ap'
+import A from './31-03-2026/A'
+import Home from './12-02-2026/Task/Home'
 function App() {
   return (
-    <div >
-      <Provider store={store}>
-        <AP/>
-      </Provider>
-      
+    <div>
+      <Home/>
     </div>
   )
 }
