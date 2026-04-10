@@ -1,7 +1,7 @@
 import React from 'react'
 
 function D() {
-    console.log("D Component")
+    console.log("D1 Component")
   return (
     <div></div>
   )

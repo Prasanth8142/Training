@@ -8,7 +8,7 @@ const C = React.memo(() => {
   return (
     
     <div>
-   {/* {value} */}
+  
         <D/>
     </div>
   )
@@ -17,13 +17,3 @@ const C = React.memo(() => {
 export default C
  
 
-// function C() {
-//   console.log("C Component")
-//   return (
-//     <div>
-//       <D/>
-//     </div>
-//   )
-// }
-
-// export default C
