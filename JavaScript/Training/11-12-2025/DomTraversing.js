@@ -55,11 +55,4 @@
 // console.log(three)
 
 
-let count=0
-let interval=setInterval(() => {
-    count++
-    console.log()
-    if(count===10){
-        clearInterval(interval)
-    }
-}, 1000);
+
