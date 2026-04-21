@@ -125,58 +125,17 @@ return m.split("").reverse().join("")
 }
 console.log(reversestring("NYBINFOTECH"))
 
-function secondelement(array3){
-    let p=0
-    let vp=0
-    for( x of array3){
-        if(x>p){
-            vp=p
-            p=x
-        }
-        else if(x>vp&& x<p){
-            vp=x
-        }
-    }
-    console.log(vp)
-}
-secondelement([10,20,40,80])
 
 
 
 
-function repeatedElement(array4){
-let count=0
-for(let i=0;i<array4.length;i++){
-    for(let j=i+1;j<array4.length;j++){
-        if(array4[i]==array4[j]){
-            console.log(array4[i])
-            count++
-            
-        }
-    }
-
-}
-console.log(count)
-}
-repeatedElement([10,20,10,30,10,40])
 
 
 
 
-// function jaggedArray(array5){
-//     let min=array5[0]
-//     for(let i=0;i<array5.length;i++){
-//         if(array5[i]<min){
-//             min=array5[i]
-//         }
-//         // else {
-//         //     console.log(array5[i]=min)
-//         // }
-//     }
-//     console.log(min)
 
-// }
-// jaggedArray([60,20,10,20,100,15])
+
+
 
 
 
