@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notification UI</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      padding: 20px;
+    }
+
+    button {
+      padding: 12px 20px;
+      border: none;
+      background: #4caf50;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /* Notification container */
+    .toast-container {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 9999;
+    }
+
+    /* Toast */
+    .toast {
+      min-width: 250px;
+      padding: 15px 20px;
+      border-radius: 8px;
+      color: #fff;
+      background: #333;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      animation: slideIn 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Different types */
+    .success { background: #4caf50; }
+    .error { background: #f44336; }
+    .info { background: #2196f3; }
+
+    /* Close button */
+    .close-btn {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    /* Animation */
+    @keyframes slideIn {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeOut {
+      to {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="showToast('Success! Action completed', 'success')">
+    Show Notification
+  </button>
+
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="./C.js"></script>
+
+</body>
+</html>
