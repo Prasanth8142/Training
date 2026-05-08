@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic List</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+
+    input {
+      padding: 8px;
+      width: 220px;
+    }
+
+    button {
+      padding: 8px 12px;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+
+    ul {
+      margin-top: 20px;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      background: #f2f2f2;
+      padding: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px;
+    }
+
+    .remove-btn {
+      background: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Dynamic List</h2>
+
+  <input type="text" id="itemInput" placeholder="Enter item" />
+  <button id="addBtn">Add Item</button>
+
+  <ul id="list"></ul>
+
+  <script src="./A.js"> </script>
+
+</body>
+</html>
