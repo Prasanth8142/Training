@@ -12,7 +12,7 @@ function D() {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, []); 
 
   return (
     <div>

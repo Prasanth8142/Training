@@ -1,9 +1,9 @@
 import React from 'react'
-import A from './11-05-2026/B'
+import A from 
 function App() {
   return (
     <div>
-      <B/>
+    <A/>
     </div>
   )
 }
