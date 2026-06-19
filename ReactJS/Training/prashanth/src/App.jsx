@@ -1,9 +1,10 @@
 import React from 'react'
-import A from 
+import A from './19-06-2026/PropsDrilling/A'
+
 function App() {
   return (
     <div>
-    <A/>
+      <A/>
     </div>
   )
 }
